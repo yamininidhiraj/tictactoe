@@ -4,21 +4,24 @@
 
 h1{
     display: inline-block;
+    font-family: cursive;
 }
 .header{
     height: 107px;
-    background-color: #002366;
-    color: #bbbbfd;
+    background-image: url("images.jpg");
+    color:rgb(63, 62, 66);
+    background-size: cover;
 }
 img{
     align-items: left;
-    width: 120px;
+    width: 150px;
     height:100px;
     border-radius: 50px;
 }
 body {
     margin: 0;
-    background-color: #bbbbfd;
+    background-image: url("download.jpg");
+    background-size: cover;
 }
 
 :root {
@@ -125,7 +128,7 @@ body {
 .board.circle .cell:not(.x):not(.circle):hover::after{
     width: calc(var(--mark-size)*.7);
     height: calc(var(--mark-size)*.7);
-    background-color: #bbbbfd;
+    background-image: url("download1.jpg");
 }
 
 .winning-message {
